@@ -6,6 +6,7 @@
 body {
 	font-family: Open sans;
 	background-image: url(../images/background.jpg);
+	color: #264D5C;
 }
 
 header {
@@ -13,6 +14,11 @@ header {
 	background-color: #204F5F;
 	color: #fff;
 	line-height: 30px;
+}
+
+header .nav-tabs.nav-justified {
+	line-height: 20px;
+	margin-top: 5px;
 }
 
 header .nav-tabs.nav-justified>li>a {
@@ -31,7 +37,7 @@ header .nav-tabs.nav-justified>.active>a, header .nav-tabs.nav-justified>.active
 header .nav-tabs>li>a {
 	border: none;
 	color: #fff;
-	padding: 10px;
+	padding: 0 10px;
 }
 
 header .nav-tabs>li>a:hover {
@@ -226,4 +232,55 @@ footer .border-right {
 
 a:hover {
 	text-decoration: none;
+}
+
+h2 strong {
+	vertical-align: bottom;
+}
+
+#about_us_carousel h4 {
+	margin: 40px 0;
+}
+
+#about_us_carousel .item {
+	min-height: 300px;
+}
+
+#about_us_carousel .carousel-control.left, #about_us_carousel .carousel-control.right {
+	background: transparent;
+}
+
+#about_us_carousel .carousel-control {
+	position: relative;
+	margin: 5px;
+	opacity: 1;
+}
+
+#about_us_carousel .carousel-control .icon-prev,
+#about_us_carousel .carousel-control .icon-next {
+	position: relative;
+	margin: 0;
+	left: 0;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	border-right:15px solid #245462; 
+	display: inline-block;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	border-left:15px solid #429AB2; 
+	display: inline-block;
+}
+
+.text-justify {
+	text-align: justify;
 }
