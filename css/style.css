@@ -7,6 +7,7 @@ body {
 	font-family: Open sans;
 	background-image: url(../images/background.jpg);
 	color: #264D5C;
+	font-size: 16px;
 }
 
 header {
@@ -291,4 +292,12 @@ h2 strong {
 
 .text-justify {
 	text-align: justify;
+}
+
+.our_list {
+	list-style-image:url('../images/list-style.png');
+}
+
+.our_list li {
+	margin: 15px 0;
 }
