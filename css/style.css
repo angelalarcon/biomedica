@@ -167,6 +167,7 @@ header .nav-tabs.nav-justified>li {
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .btn-blue:hover {
@@ -240,6 +241,7 @@ h2 strong {
 }
 
 #about_us_carousel h4,
+#products_carousel h4,
 #values_carousel h4 {
 	margin: 40px 0;
 }
@@ -249,14 +251,21 @@ h2 strong {
 	min-height: 300px;
 }
 
+#products_carousel .item {
+	min-height: 400px;
+}
+
 #about_us_carousel .carousel-control.left,
 #about_us_carousel .carousel-control.right,
+#products_carousel .carousel-control.left,
+#products_carousel .carousel-control.right,
 #values_carousel .carousel-control.left,
 #values_carousel .carousel-control.right {
 	background: transparent;
 }
 
 #about_us_carousel .carousel-control,
+#products_carousel .carousel-control,
 #values_carousel .carousel-control {
 	position: relative;
 	margin: 5px;
@@ -265,6 +274,8 @@ h2 strong {
 
 #about_us_carousel .carousel-control .icon-prev,
 #about_us_carousel .carousel-control .icon-next,
+#products_carousel .carousel-control .icon-prev,
+#products_carousel .carousel-control .icon-next,
 #values_carousel .carousel-control .icon-prev,
 #values_carousel .carousel-control .icon-next {
 	position: relative;
@@ -298,6 +309,17 @@ h2 strong {
 	list-style-image:url('../images/list-style.png');
 }
 
-.our_list li {
+.our_list li, .wide-list li {
 	margin: 15px 0;
+}
+
+#contact-us input, #contact-us textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	border: 2px solid #d0d0d0;
+}
+
+#contact-us .btn-blue {
+	margin-bottom: 10px;
 }
