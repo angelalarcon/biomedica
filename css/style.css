@@ -175,6 +175,11 @@ header .nav-tabs.nav-justified>li {
 	text-decoration: none;
 }
 
+.btn-big {
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
 .margin-row {
 	margin-top: 40px;
 }
@@ -322,4 +327,12 @@ h2 strong {
 
 #contact-us .btn-blue {
 	margin-bottom: 10px;
+}
+
+#logo {
+	width: 200px;
+}
+
+.top-20 {
+	margin-top: 20px;
 }
